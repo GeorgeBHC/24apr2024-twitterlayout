@@ -1,0 +1,142 @@
+
+body {
+    font-size: 15px;
+    font-family: "Helvetica", sans-serif;
+    background-color: #000000;
+
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 275px auto 350px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.layout-right-sidebar {
+    position: fixed;
+    width: 350px;
+    right: 0;
+}
+
+#logo {
+    height: 50px;
+}
+
+.sidebar-menu {
+    position: fixed;
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+}
+
+.sidebar-menu-items {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-weight: bold;
+    color: #bebebe;
+}
+
+.sidebar-menu-items:hover {
+    background: rgba(29, 161, 242, 0.1);
+    color: #bebebe;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sidebar-menu-items--active {
+    color: #ffffff;
+}
+
+.sidebar-menu-items-logo {
+    height: 30px;
+    margin-right: 15px;
+}
+
+.tweet {
+    display: flex;
+    border-bottom: 1px solid #494949;
+    padding: 10px 15px;
+    color: #dadada;
+}
+
+.tweet:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.tweet-header {
+    display: flex;
+}
+
+.tweet-author-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.tweet-author-name {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.tweet-author-tag {
+    color: rgb(136, 153, 168);
+    font-size: 13px;
+}
+
+.tweet-publish {
+    margin-left: 10px;
+    color: rgb(136, 153, 168);
+    font-size: 13px;
+}
+
+.trends {
+    background: #000000;
+}
+
+.trends-item {
+    border-bottom: 1px solid #494949;
+    padding: 15px;
+}
+
+.trends-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.trends-info {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(136, 153, 168);
+}
+
+.trends-name {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+.post {
+    background-color: #1da1f2;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .post:hover {
+    background-color: #0e71c8;
+  }
+
+
