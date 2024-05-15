@@ -21,6 +21,7 @@ body {
 
 #logo {
     height: 50px;
+    position: fixed;
 }
 
 .sidebar-menu {
@@ -138,5 +139,4 @@ body {
   .post:hover {
     background-color: #0e71c8;
   }
-
 
